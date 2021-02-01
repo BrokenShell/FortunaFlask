@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    command: gunicorn --reload --workers 1 --bind 0.0.0.0:5000 app:API
+    volumes:
+      - ./project:/usr/src/project
+    ports:
+      - 5000:5000

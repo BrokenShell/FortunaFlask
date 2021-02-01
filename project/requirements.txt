@@ -1,0 +1,3 @@
+Flask==1.1.2
+Fortuna==3.20.3
+gunicorn==20.0.4
