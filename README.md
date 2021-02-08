@@ -1,7 +1,8 @@
 # FortunaFlask
+## Web API for Fortuna.
 
-
-Web API for Fortuna.
+<hr>
+<br>
 
 ### `/canonical`
 Returns a random float in range [0.0, 1.0), tail exclusive.
